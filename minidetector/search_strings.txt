@@ -6,11 +6,18 @@
 # This list is public domain, please feel free to use it for your own projects
 # If HTTP_USER_AGENT.lower() contains any of these strings, it's a mobile
 # Also include some games consoles, see below
+
+# Since mobile mostly means iPhone and iPad, we leave out 'mobile' which
+# they both pick up on and we use iphone in it's place. We assume iPad 
+# gets desktop treatment. Quick hack. Better to implement in view.  
+# mobile
+iphone
+
+
 sony
 symbian
 nokia
 samsung
-mobile
 windows ce
 epoc
 opera mini
