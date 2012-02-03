@@ -6,7 +6,6 @@
 # This list is public domain, please feel free to use it for your own projects
 # If HTTP_USER_AGENT.lower() contains any of these strings, it's a mobile
 # Also include some games consoles, see below
-
 mobile
 sony
 symbian
